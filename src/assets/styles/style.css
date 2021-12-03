@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    background-color: #191919;
+    color: #EEE;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 4rem;
+    margin: 0 13rem;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 1rem;
+    background-color: #bbb;
+}
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* BASICS */
+.tonic {
+    color: #1DBEC4;
+}
+.title {
+    font-size: 2.8rem;
+}
+.sub-title, a {
+    font-size: 2rem;
+}
+.paragraph, li, .social, form, #footer, #legend {
+    font-size: 1.6rem;
+}
+a {
+    text-decoration: none;
+}
+#about, #contact, #footer {
+    padding-top: 10rem;
+    margin-top: 10rem;
+}
+
+
+/* NAVIGATION */
+#head {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    background-image: linear-gradient(rgba(12,12,12,1), rgba(12,12,12,0));
+    padding: 3rem;
+}
+nav {
+    float: right;
+    margin-right: 4rem;
+}
+nav > *{
+    display: inline;
+    padding: .4rem 1rem;
+    margin: 0 5rem;
+}
+nav > *.active{
+    border-bottom: #1DBEC4 .3rem solid;
+    border-radius: .2rem;
+}
+nav a {
+    color: #EEE;
+}
+
+/* HOME */
+#home {
+    padding-top: 28rem;
+}
+#home > h1, #home > #introduction {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    line-height: 3rem;
+}
+#home > div {
+    font-size: 3.4rem;
+    width: 21.1rem;
+    padding-top: 13rem;
+    padding-left: 8rem;
+
+}
+#home > img {
+    float: right;
+}
+.slash {
+    position: relative;
+    font-weight: bold;
+}
+.slash::before {
+    content: url("../img/slash.png");
+    position: absolute;
+    top: 11rem;
+    left: 0;
+}
+
+/* WORK */
+#work {
+    padding-top: 15rem;
+    margin-top: 15rem;
+}
+.project {
+    display: inline-block;
+    width: 27rem;
+    height: 20rem;
+    padding: 0 5rem;
+    margin: 1.5rem;
+    position: relative;
+    border: #EEE 1px solid;
+    border-radius: 5px;
+    box-shadow: #555 2px 2px 10px;
+    background-size: cover;
+    overflow: hidden;
+}
+.project > .sub-title {
+    display: inline-block;
+    transition: all .5s;
+}
+.project > .project-desc {
+    position: absolute;
+    width: 25rem;
+    transition: all .5s;
+    top: 0;
+    right: -30rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.project:hover {
+    background: rgb(12,12,12);
+}
+.project:hover > .sub-title {
+    transition: all .5s;
+    transform: translateX(-35rem);
+}
+.project:hover > .project-desc {
+    transition: all .5s;
+    transform: translateX(-35rem);
+}
+#resume {
+    margin-top: 5rem;
+}
+.project-1 {
+    background-image: url("../img/project-1.jpeg");
+}
+.project-2 {
+    background-image: url("../img/project-2.png");
+}
+.project-5 {
+    background-image: url("../img/project-5.png");
+}
+.project-6 {
+    background-image: url("../img/project-6.png");
+}
+.project-7 {
+    background-image: url("../img/project-7.png");
+}
+
+/* ABOUT */
+#about .title {
+    margin-top: 10rem;
+}
+#about .sub-title {
+    margin-top: 7rem;
+}
+.tools {
+    display: inline-block;
+}
+.tools:first-of-type {
+    margin-right: 20rem;
+}
+#picture {
+    float: right;
+    margin-top: 9rem;
+    margin-right: -16rem;
+}
+#legend {
+    text-align: center;
+    font-style: italic;
+}
+
+/* CONTACT */
+form > * {
+    display: block;
+    width: 30rem;
+    padding: .7rem;
+    margin: .7rem;
+    background: none;
+    border: .1rem #EEE solid;
+    border-radius: 1rem;
+}
+
+/* FOOTER */
+#footer {
+    text-align: center;
+}
