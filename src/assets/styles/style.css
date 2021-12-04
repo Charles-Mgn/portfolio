@@ -32,6 +32,7 @@
 }
 a {
     text-decoration: none;
+    color: #EEE;
 }
 #about, #contact, #footer {
     padding-top: 10rem;
@@ -69,7 +70,7 @@ nav a {
 
 /* HOME */
 #home {
-    padding-top: 28rem;
+    padding-top: 25rem;
 }
 #home > h1, #home > #introduction {
     font-size: 2rem;
@@ -86,6 +87,7 @@ nav a {
 }
 #home > img {
     float: right;
+    max-width: 55vw;
 }
 .slash {
     position: relative;
@@ -183,14 +185,8 @@ nav a {
 }
 
 /* CONTACT */
-form > * {
-    display: block;
-    width: 30rem;
-    padding: .7rem;
-    margin: .7rem;
-    background: none;
-    border: .1rem #EEE solid;
-    border-radius: 1rem;
+.social i {
+    margin-right: 1rem;
 }
 
 /* FOOTER */

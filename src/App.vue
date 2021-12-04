@@ -24,51 +24,64 @@
       <div>
         <h2 class="tonic title">Dev projects</h2>
         <div class="project-container">
-          <div class="project project-1">
+          <a href="https://projets1.charlesmangin.fr" target="_blank" class="project project-1">
             <h3 class="sub-title">AI, a not so bright futur?</h3>
             <div class="project-desc">
               <p>AI is all around us, yet few people are aware of its presence. Is AI a blessing or a malediction for mankind? Find the answer to this and much more on "AI, a not so bright futur?".</p>
               <p>One of the first websites I created. Part of an assignment in DUT MMI.</p>
             </div>
-          </div>
-          <div class="project project-2">
+          </a>
+          <a href="https://alteringames.charlesmangin.fr" target="_blank" class="project project-2">
             <h3 class="sub-title">AlterinGames</h3>
             <div class="project-desc">
-              <p></p>
+              <p>Ever wondered how you should spend your saturday afternoon? Maybe you've got some boardgames, but you've already played them a bit too much? With AlterinGames, rediscover your favorite boardgames with brand new house rules.</p>
             </div>
-          </div>
-          <div class="project project-3">
+          </a>
+          <a href="#" target="_blank" class="project project-3">
             <h3 class="sub-title">Gears of Society</h3>
-            <div class="project-desc">###</div>
-          </div>
-          <div class="project project-4">
-            <h3 class="sub-title">Comming soon</h3>
-            <div class="project-desc">###</div>
-          </div>
+            <div class="project-desc">
+              <p>System of a Dawn in a world famous music band, but not everyone actually listen to what's being said in their song.</p>
+              <p>This site was created over the course of a two 8-hours-days challenge, which included everything from the design to the content and integration.</p>
+            </div>
+          </a>
+          <a href="#" target="_blank" class="project project-4">
+            <h3 class="sub-title">"Maison des étudiants de Montbéliard" (coming soon)</h3>
+            <div class="project-desc">
+              <p>The "Maison des étudiants de Montbéliard" is a student association based in Montbéliard, France. As of today, this association has only a presence on social medias. But as they grow in size, developing a website became a necessity.</p>
+            </div>
+          </a>
         </div>
       </div>
       <div>
         <h2 class="tonic title">Design projects</h2>
         <div class="project-container">
-          <div class="project project-5">
+          <a href="#" target="_blank" class="project project-5">
             <h3 class="sub-title">Landscapes</h3>
-            <div class="project-desc">###</div>
-          </div>
-          <div class="project project-6">
+            <div class="project-desc">
+              <p>I grew up in a city called Belfort. The aim of this small project was to showcase the main landmarks of Belfort, which includes The Lion of Belfort (made by Bartholdi, the creator of the Statue of Liberty), the Atria Hotel, and the Tower of the Miotte.</p>
+            </div>
+          </a>
+          <a href="#" target="_blank" class="project project-6">
             <h3 class="sub-title">BUG DAYS</h3>
-            <div class="project-desc">###</div>
-          </div>
-          <div class="project project-7">
+            <div class="project-desc">
+              <p>BUG DAYS is a fictional e-sport event for which a created an animated logo as well as a landing page.</p>
+            </div>
+          </a>
+          <a href="#" target="_blank" class="project project-7">
             <h3 class="sub-title">Space Being</h3>
-            <div class="project-desc">###</div>
-          </div>
-          <div class="project project-8">
-            <h3 class="sub-title">Comming soon</h3>
-            <div class="project-desc">###</div>
-          </div>
+            <div class="project-desc">
+              <p>A small project that I made using Adobe After Effects. I started with an existing image, modified it, and animated it to give it a false 3D perspective.</p>
+            </div>
+          </a>
+          <a href="#" target="_blank" class="project project-8">
+            <h3 class="sub-title">VR - 360 degree drawings (coming soon)</h3>
+            <div class="project-desc">
+              <p>Creating an image made for 360 degree displays.</p>
+            </div>
+          </a>
         </div>
       </div>
-      <div id="resume"><a href="#" class="tonic">> Get my resume</a></div>
+      <div id="resume"><a href="#" class="tonic">> Download my resume</a></div>
     </div>
 
 
@@ -136,10 +149,10 @@
     <div id="contact">
       <h2 class="tonic title">Want to get in touch?</h2>
       <div>
-        <div class="social">LinkedIn</div>
-        <div class="social">Gmail</div>
-        <div class="social">GitHub</div>
-        <div class="social">Instagram</div>
+        <div class="social"><a href="https://www.linkedin.com/in/charles-m-9014a4151/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></div>
+        <div class="social"><a href="mailto:charlesmangin.98@gmail.com" target="_blank"><i class="fas fa-at"></i>Gmail</a></div>
+        <div class="social"><a href="https://github.com/Ezellix" target="_blank"><i class="fab fa-github"></i>GitHub</a></div>
+        <div class="social"><a href="https://www.instagram.com/charles_0229/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></div>
       </div>
     </div>
 
@@ -172,7 +185,7 @@ export default {
         document.querySelector('.work').classList.remove("active");
         document.querySelector('.home').classList.remove("active");
       }
-      else if (scroll > 25 && scroll <= 50) {
+      else if (scroll > 20 && scroll <= 50) {
         document.querySelector('.work').classList.add("active");
         document.querySelector('.about').classList.remove("active");
         document.querySelector('.contact').classList.remove("active");
