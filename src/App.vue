@@ -24,11 +24,16 @@
       <div>
         <h2 class="tonic title">Dev projects</h2>
         <div class="project-container">
+          <a href="https://projetmemo.nikolag25.fr" target="_blank" class="project project-4">
+            <h3 class="sub-title">"Maison des étudiants de Montbéliard"</h3>
+            <div class="project-desc">
+              <p>The "Maison des étudiants de Montbéliard" is a student association based in Montbéliard, France. As of today, this association has only a presence on social medias. But as they grow in size, developing a website became a necessity.</p>
+            </div>
+          </a>
           <a href="https://projets1.charlesmangin.fr" target="_blank" class="project project-1">
             <h3 class="sub-title">AI, a not so bright futur?</h3>
             <div class="project-desc">
               <p>AI is all around us, yet few people are aware of its presence. Is AI a blessing or a malediction for mankind? Find the answer to this and much more on "AI, a not so bright futur?".</p>
-              <p>One of the first websites I created. Part of an assignment in DUT MMI.</p>
             </div>
           </a>
           <a href="https://alteringames.charlesmangin.fr" target="_blank" class="project project-2">
@@ -38,16 +43,10 @@
             </div>
           </a>
           <a href="#" target="_blank" class="project project-3">
-            <h3 class="sub-title">Gears of Society</h3>
+            <h3 class="sub-title">Gears of Society (coming soon)</h3>
             <div class="project-desc">
-              <p>System of a Dawn in a world famous music band, but not everyone actually listen to what's being said in their song.</p>
-              <p>This site was created over the course of a two 8-hours-days challenge, which included everything from the design to the content and integration.</p>
-            </div>
-          </a>
-          <a href="#" target="_blank" class="project project-4">
-            <h3 class="sub-title">"Maison des étudiants de Montbéliard" (coming soon)</h3>
-            <div class="project-desc">
-              <p>The "Maison des étudiants de Montbéliard" is a student association based in Montbéliard, France. As of today, this association has only a presence on social medias. But as they grow in size, developing a website became a necessity.</p>
+              <p>System of a Dawn is a world renowned music group, but have you actually listened to their lyrics?</p>
+              <p>This site was created over the course of a two 8-hours-days challenge, which included everything from the design to the integration.</p>
             </div>
           </a>
         </div>
@@ -55,46 +54,46 @@
       <div>
         <h2 class="tonic title">Design projects</h2>
         <div class="project-container">
-          <a href="#" target="_blank" class="project project-5">
+          <a href="https://youtu.be/VNLcxtOo9d4" target="_blank" class="project project-5">
             <h3 class="sub-title">Landscapes</h3>
             <div class="project-desc">
               <p>I grew up in a city called Belfort. The aim of this small project was to showcase the main landmarks of Belfort, which includes The Lion of Belfort (made by Bartholdi, the creator of the Statue of Liberty), the Atria Hotel, and the Tower of the Miotte.</p>
             </div>
           </a>
-          <a href="#" target="_blank" class="project project-6">
+          <a href="https://youtu.be/R5D16f5Xb9A" target="_blank" class="project project-6">
             <h3 class="sub-title">BUG DAYS</h3>
             <div class="project-desc">
               <p>BUG DAYS is a fictional e-sport event for which a created an animated logo as well as a landing page.</p>
             </div>
           </a>
+          <a href="https://youtu.be/iBnIJ5YoUYE" target="_blank" class="project project-8">
+            <h3 class="sub-title">Monogramme</h3>
+            <div class="project-desc">
+              <p>Creating an animation of your initials. What's better than a dragon? 🔥🔥</p>
+            </div>
+          </a>
           <a href="#" target="_blank" class="project project-7">
-            <h3 class="sub-title">Space Being</h3>
+            <h3 class="sub-title">Space Being (coming soon)</h3>
             <div class="project-desc">
               <p>A small project that I made using Adobe After Effects. I started with an existing image, modified it, and animated it to give it a false 3D perspective.</p>
             </div>
           </a>
-          <a href="#" target="_blank" class="project project-8">
-            <h3 class="sub-title">VR - 360 degree drawings (coming soon)</h3>
-            <div class="project-desc">
-              <p>Creating an image made for 360 degree displays.</p>
-            </div>
-          </a>
         </div>
       </div>
-      <div id="resume"><a href="#" class="tonic">> Download my resume</a></div>
+      <div id="resume"><a href="assets/CV_MANGIN-Charles.pdf" download class="tonic">> Download my resume</a></div>
     </div>
 
 
     <div id="about">
-      <div id="picture">
-        <img src="@/assets/img/picture.png" alt="that's me!" id="charles">
-        <div id="legend" class="tonic">Doing the things I love, while trying to better the world around me.</div>
-      </div>
-
       <div>
         <h2 class="tonic title">Who I am</h2>
         <div class="paragraph">My name is Charles Mangin, I'm 23 years old and I am a multimedia student based in France.</div>
         <div class="paragraph">I always liked to create stuff, and now I do it as a job!</div>
+      </div>
+
+      <div id="picture">
+        <img src="@/assets/img/picture.png" alt="that's me!" id="charles">
+        <div id="legend" class="tonic">Doing the things I love, while trying to better the world around me.</div>
       </div>
 
       <div>
@@ -145,7 +144,6 @@
       </div>
     </div>
 
-
     <div id="contact">
       <h2 class="tonic title">Want to get in touch?</h2>
       <div>
@@ -156,7 +154,9 @@
       </div>
     </div>
 
-    <div id="footer">© 2021 Copyright: charlesmangin.fr</div>
+    <div id="more"><p>(More projects and updates coming very soon!)</p></div>
+
+    <div id="footer">© 2022 Copyright: charlesmangin.fr</div>
 
   </div>
 </template>
