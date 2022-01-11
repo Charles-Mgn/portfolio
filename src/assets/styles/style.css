@@ -162,7 +162,7 @@ nav a {
         margin-left: auto;
         margin-right: auto;
         transition: all .2s;
-        min-width: 95vw;
+        min-width: 85vw;
     }
     #home > div {
         display: block;
@@ -265,7 +265,8 @@ nav a {
         margin-top: 5rem;
     }
     .project {
-        width: 90%;
+        max-width: 70%;
+        margin-left: 0;
     }
 }
 
@@ -287,6 +288,12 @@ nav a {
     margin-top: 9rem;
     margin-right: -16rem;
 }
+#charles {
+    display: block;
+    background-image: url("../img/picture.png");
+    width: 770px;
+    height: 724px;
+}
 #legend {
     text-align: center;
     font-style: italic;
@@ -294,15 +301,20 @@ nav a {
 @media (max-width: 1100px) {
     #picture {
         float: none;
-        margin: 5rem 0;
+        display: block;
+        margin: 0 auto;
+        border-right: #1DBEC4 5px solid;
     }
-    #picture img {
-        max-width: 150vw;
+    #charles {
+        background: url("../img/pic_mobile.png");
+        width: 297px;
+        height: 422px;
+        margin: 0 auto;
     }
     #legend {
         text-align: right;
-        margin-left: 5rem;
-        margin-right: -4rem;
+        margin-left: 2rem;
+        padding-right: 2rem;
     }
 }
 

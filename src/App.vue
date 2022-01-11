@@ -42,11 +42,11 @@
               <p>Ever wondered how you should spend your saturday afternoon? Maybe you've got some boardgames, but you've already played them a bit too much? With AlterinGames, rediscover your favorite boardgames with brand new house rules.</p>
             </div>
           </a>
-          <a href="#" target="_blank" class="project project-3">
-            <h3 class="sub-title">Gears of Society (coming soon)</h3>
+          <a href="https://s3-wp.charlesmangin.fr/" target="_blank" class="project project-3">
+            <h3 class="sub-title">Mountain Climber (Wordpress Landing Page)</h3>
             <div class="project-desc">
-              <p>System of a Dawn is a world renowned music group, but have you actually listened to their lyrics?</p>
-              <p>This site was created over the course of a two 8-hours-days challenge, which included everything from the design to the integration.</p>
+              <p>A small responsive landing page made with Wordpress.</p>
+              <p>For this project, a model was given to us. The aim was to get as close as to the original as possible.</p>
             </div>
           </a>
         </div>
@@ -92,7 +92,7 @@
       </div>
 
       <div id="picture">
-        <img src="@/assets/img/picture.png" alt="that's me!" id="charles">
+        <div id="charles"></div>
         <div id="legend" class="tonic">Doing the things I love, while trying to better the world around me.</div>
       </div>
 
