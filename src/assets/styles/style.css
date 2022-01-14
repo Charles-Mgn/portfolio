@@ -231,16 +231,24 @@ nav a {
 #resume {
     margin-top: 5rem;
 }
-.project-1 {
-    background-image: url("../img/project-1.jpeg");
+.project-dev-1 {
+    background-image: url("../img/project-dev-1.jpeg");
     background-position: center;
 }
-.project-2 {
-    background-image: url("../img/project-2.png");
+.project-dev-2 {
+    background-image: url("../img/project-dev-2.png");
     background-position: center;
 }
-.project-4 {
-    background-image: url("../img/project-4.png");
+.project-dev-3 {
+    background-image: url("../img/project-dev-3.png");
+    background-position: center;
+}
+.project-dev-4 {
+    background-image: url("../img/project-dev-4.png");
+    background-position: center;
+}
+.project-dev-5 {
+    background-image: url("../img/project-dev-5.png");
     background-position: center;
 }
 .project-5 {

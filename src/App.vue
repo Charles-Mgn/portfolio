@@ -24,26 +24,33 @@
       <div>
         <h2 class="tonic title">Dev projects</h2>
         <div class="project-container">
-          <a href="https://projetmemo.nikolag25.fr" target="_blank" class="project project-4">
+          <a href="https://architech.charlesmangin.fr" target="_blank" class="project project-dev-5">
+            <h3 class="sub-title">Architech</h3>
+            <div class="project-desc">
+              <p>A website made over the course of a 2 days challenge! From designing to the integration with Vue.js, everything was made in about 20 hours.</p>
+              <p>Discover an unknown artist of great talent: Jean-Pierre Ugarte.</p>
+            </div>
+          </a>
+          <a href="https://projetmemo.nikolag25.fr" target="_blank" class="project project-dev-4">
             <h3 class="sub-title">"Maison des étudiants de Montbéliard"</h3>
             <div class="project-desc">
               <p>The "Maison des étudiants de Montbéliard" is a student association based in Montbéliard, France. As of today, this association has only a presence on social medias. But as they grow in size, developing a website became a necessity.</p>
             </div>
           </a>
-          <a href="https://projets1.charlesmangin.fr" target="_blank" class="project project-1">
+          <a href="https://projets1.charlesmangin.fr" target="_blank" class="project project-dev-1">
             <h3 class="sub-title">AI, a not so bright futur?</h3>
             <div class="project-desc">
               <p>AI is all around us, yet few people are aware of its presence. Is AI a blessing or a malediction for mankind? Find the answer to this and much more on "AI, a not so bright futur?".</p>
             </div>
           </a>
-          <a href="https://alteringames.charlesmangin.fr" target="_blank" class="project project-2">
+          <a href="https://alteringames.charlesmangin.fr" target="_blank" class="project project-dev-2">
             <h3 class="sub-title">AlterinGames</h3>
             <div class="project-desc">
               <p>Ever wondered how you should spend your saturday afternoon? Maybe you've got some boardgames, but you've already played them a bit too much? With AlterinGames, rediscover your favorite boardgames with brand new house rules.</p>
             </div>
           </a>
-          <a href="https://s3-wp.charlesmangin.fr/" target="_blank" class="project project-3">
-            <h3 class="sub-title">Mountain Climber (Wordpress Landing Page)</h3>
+          <a href="https://s3-wp.charlesmangin.fr" target="_blank" class="project project-dev-3">
+            <h3 class="sub-title">Mountain Climber (a Wordpress Landing Page)</h3>
             <div class="project-desc">
               <p>A small responsive landing page made with Wordpress.</p>
               <p>For this project, a model was given to us. The aim was to get as close as to the original as possible.</p>
