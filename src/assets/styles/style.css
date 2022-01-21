@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 4rem;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
     width: 1rem;
@@ -342,4 +343,48 @@ nav a {
 #more {
     margin-top: 10rem;
     font-size: 1.8rem;
+}
+
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideHorizontal {
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideVertical {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn ease-in .4s forwards;
+}
+
+.slideHL {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn ease-in .4s forwards;
+}
+
+.slideHR {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideVertical ease-in .2s forwards;
+}
+
+.slideV {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: slideHorizontal ease-in .2s forwards;
 }

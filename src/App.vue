@@ -2,7 +2,7 @@
   <div id="app">
 
     <div id="head">
-      <nav>
+      <nav class="slideV">
         <div class="home"><a href="#home">Home</a></div>
         <div class="work"><a href="#work">My work</a></div>
         <div class="about"><a href="#about">About</a></div>
@@ -11,7 +11,7 @@
     </div>
 
 
-    <div id="home">
+    <div id="home" class="fadeIn">
       <img src="@/assets/img/logo.png" alt="logo" id="logo">
       <h1>Hi, I'm <span class="tonic">Charles</span>.</h1>
       <div id="introduction">I like creating things 😃</div>
@@ -21,7 +21,7 @@
 
 
     <div id="work">
-      <div>
+      <div class="fadeIn">
         <h2 class="tonic title">Dev projects</h2>
         <div class="project-container">
           <a href="https://architech.charlesmangin.fr" target="_blank" class="project project-dev-5">
@@ -58,7 +58,7 @@
           </a>
         </div>
       </div>
-      <div>
+      <div class="fadeIn">
         <h2 class="tonic title">Design projects</h2>
         <div class="project-container">
           <a href="https://youtu.be/VNLcxtOo9d4" target="_blank" class="project project-5">
@@ -92,18 +92,18 @@
 
 
     <div id="about">
-      <div>
+      <div class="fadeIn">
         <h2 class="tonic title">Who I am</h2>
         <div class="paragraph">My name is Charles Mangin, I'm 23 years old and I am a multimedia student based in France.</div>
         <div class="paragraph">I always liked to create stuff, and now I do it as a job!</div>
       </div>
 
-      <div id="picture">
+      <div id="picture" class="fadeIn">
         <div id="charles"></div>
         <div id="legend" class="tonic">Doing the things I love, while trying to better the world around me.</div>
       </div>
 
-      <div>
+      <div class="fadeIn">
         <h2 class="tonic title">What I do</h2>
         <div class="paragraph">I am fairly polyvalent. I have a degree in management, I studied law, and I will soon have a degree in multimedia.</div>
         <div class="paragraph">Here's what I know:</div>
@@ -125,8 +125,8 @@
       </div>
 
       <div>
-        <h2 class="tonic title">Tools I use</h2>
-        <div class="tools">
+        <h2 class="tonic title fadeIn">Tools I use</h2>
+        <div class="tools fadeIn">
           <h3 class="tonic sub-title">Programming languages</h3>
           <ul>
             <li>HTML</li>
@@ -137,7 +137,7 @@
             <li>PHP</li>
           </ul>
         </div>
-        <div class="tools">
+        <div class="tools fadeIn">
           <h3 class="tonic sub-title">Softwares</h3>
           <ul>
             <li>JetBrains</li>
@@ -152,8 +152,8 @@
     </div>
 
     <div id="contact">
-      <h2 class="tonic title">Want to get in touch?</h2>
-      <div>
+      <h2 class="tonic title fadeIn">Want to get in touch?</h2>
+      <div class="fadeIn">
         <div class="social"><a href="https://www.linkedin.com/in/charles-m-9014a4151/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></div>
         <div class="social"><a href="mailto:charlesmangin.98@gmail.com" target="_blank"><i class="fas fa-at"></i>Gmail</a></div>
         <div class="social"><a href="https://github.com/Ezellix" target="_blank"><i class="fab fa-github"></i>GitHub</a></div>
