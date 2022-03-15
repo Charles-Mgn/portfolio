@@ -15,7 +15,7 @@
       },
       {
         "id": "1",
-        "title": "\"Maison des étudiants de Montbéliard\"",
+        "title": "Maison des étudiants de Montbéliard",
         "desc": "Website for the main student-led association of Montbéliard.",
         "tech": "HTML, CSS, Vue.js, Wordpress",
         "time": "60 hours",
@@ -58,7 +58,7 @@
         "link": "https://s3-wp.charlesmangin.fr"
       }
     ],
-    "designTitle": "Design projects",
+    "designTitle": "Design & audiovisual projects",
     "designProjects": [
       {
         "id": "0",
@@ -138,25 +138,65 @@
     "tools": {
       "title": "Tools I use",
       "programming": {
-        "title": "Programming languages",
+        "title": "Programming languages proficiency",
         "list": {
-          "item1": "HTML",
-          "item2": "CSS",
-          "item3": "JS (w/ Vue.js)",
-          "item4": "SQL",
-          "item5": "C#",
-          "item6": "PHP"
+          "item": [
+            {
+              "name": "HTML",
+              "percent": "95%"
+            },
+            {
+              "name": "CSS",
+              "percent": "85%"
+            },
+            {
+              "name": "JavaScript (& Vue.JS)",
+              "percent": "70%"
+            },
+            {
+              "name": "PHP",
+              "percent": "40%"
+            },
+            {
+              "name": "SQL",
+              "percent": "40%"
+            },
+            {
+              "name": "C#",
+              "percent": "20%"
+            }
+          ]
         }
       },
       "softwares": {
-        "title": "Softwares",
+        "title": "Softwares proficiency",
         "list": {
-          "item1": "JetBrains",
-          "item2": "Visual Studio",
-          "item3": "Wordpress",
-          "item4": "Adobe Suite",
-          "item5": "Microsoft Office Suite",
-          "item6": "Google Suite"
+          "item": [
+            {
+              "name": "JetBrains",
+              "percent": "80%"
+            },
+            {
+              "name": "Visual Studio",
+              "percent": "70%"
+            },
+            {
+              "name": "Wordpress",
+              "percent": "65%"
+            },
+            {
+              "name": "Adobe Suite",
+              "percent": "75%"
+            },
+            {
+              "name": "Microsoft Office Suite",
+              "percent": "95%"
+            },
+            {
+              "name": "Google Suite",
+              "percent": "95%"
+            }
+          ]
         }
       }
     },

@@ -37,7 +37,7 @@
 
     <div id="work">
       <div class="fadeIn test">
-        <h2 class="tonic title">Dev projects</h2>
+        <h2 class="tonic title">{{ content.work.devTitle }}</h2>
         <div class="project-container" v-for="project in content.work.devProjects" :key="project.id">
           <div class="project">
             <img :src="project.img" :alt="project.title">
@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="fadeIn">
-        <h2 class="tonic title">Design & audiovisual projects</h2>
+        <h2 class="tonic title">{{ content.work.designTitle }}</h2>
 
         <div class="project-container" v-for="project in content.work.designProjects" :key="project.id">
           <div class="project">
@@ -74,9 +74,9 @@
 
     <div id="about">
       <div class="fadeIn">
-        <h2 class="tonic title">Who I am</h2>
-        <div class="paragraph">My name is Charles Mangin, I'm 23 years old and I am a multimedia student based in France.</div>
-        <div class="paragraph">I always liked to create stuff, and now I do it as a job!</div>
+        <h2 class="tonic title">{{ content.about.who.title }}</h2>
+        <div class="paragraph">{{ content.about.who.txt1 }}</div>
+        <div class="paragraph">{{ content.about.who.txt2 }}</div>
       </div>
 
       <div id="picture" class="fadeIn">
@@ -85,97 +85,106 @@
       </div>
 
       <div class="fadeIn">
-        <h2 class="tonic title">What I do</h2>
-        <div class="paragraph">I am fairly polyvalent. I have a degree in management, I studied law, and I will soon have a degree in multimedia.</div>
-        <div class="paragraph">Here's what I know:</div>
-        <h3 class="tonic sub-title">Multimedia</h3>
+        <h2 class="tonic title">{{ content.about.what.title }}</h2>
+        <div class="paragraph">{{ content.about.what.txt1 }}</div>
+        <div class="paragraph">{{ content.about.what.txt2 }}</div>
+        <h3 class="tonic sub-title">{{ content.about.what.multimedia.title }}</h3>
         <ul>
-          <li>Development: How to create websites from A to Z, using multiple programming languages (see below).</li>
-          <li>Design: How to create visual identities (including, but not limited to: mock-ups, landing pages, logos, animations).</li>
-          <li>Audio-visual: How to film and edit videos.</li>
-          <li>Communication: How to communicate on the internet, while keeping in mind SEO challenges.</li>
+          <li v-for="item in content.about.what.multimedia.list" :key="item.id">{{ item }}</li>
         </ul>
 
-        <h3 class="tonic sub-title">Management and law</h3>
+        <h3 class="tonic sub-title">{{ content.about.what.managementLaw.title }}</h3>
         <ul>
-          <li>Team management: How to organize and manage projects and teams.</li>
-          <li>Communication & marketing: Analysing markets, choosing the best strategies to adopt based on the needs of the client.</li>
-          <li>Accounting & finance: Analysing costs, knowing how to keep up with a budget.</li>
-          <li>Law: French business laws and administrative laws.</li>
+          <li v-for="item in content.about.what.managementLaw.list" :key="item.id">{{ item }}</li>
         </ul>
       </div>
 
       <div>
-        <h2 class="tonic title fadeIn">Tools I use</h2>
+        <h2 class="tonic title fadeIn">{{ content.about.tools.title }}</h2>
         <div class="tools fadeIn">
-          <h3 class="tonic sub-title">Programming languages proficiency</h3>
-          <p>HTML</p>
-          <div class="container">
-            <div class="skills html">95%</div>
+          <h3 class="tonic sub-title">{{ content.about.tools.programming.title }}</h3>
+          <div class="skill-container">
+            <p>HTML</p>
+            <div class="container">
+              <div class="skills html">95%</div>
+            </div>
           </div>
-
-          <p>CSS</p>
-          <div class="container">
-            <div class="skills css">85%</div>
+          <div class="skill-container">
+            <p>CSS</p>
+            <div class="container">
+              <div class="skills css">85%</div>
+            </div>
           </div>
-
-          <p>JavaScript (& Vue.JS)</p>
-          <div class="container">
-            <div class="skills js">70%</div>
+          <div class="skill-container">
+            <p>JavaScript (& Vue.JS)</p>
+            <div class="container">
+              <div class="skills js">70%</div>
+            </div>
           </div>
-
-          <p>PHP</p>
-          <div class="container">
-            <div class="skills php">40%</div>
+          <div class="skill-container">
+            <p>PHP</p>
+            <div class="container">
+              <div class="skills php">40%</div>
+            </div>
           </div>
-
-          <p>SQL</p>
-          <div class="container">
-            <div class="skills sql">40%</div>
+          <div class="skill-container">
+            <p>SQL</p>
+            <div class="container">
+              <div class="skills sql">40%</div>
+            </div>
           </div>
-
-          <p>C#</p>
-          <div class="container">
-            <div class="skills c-sharp">20%</div>
+          <div class="skill-container">
+            <p>C#</p>
+            <div class="container">
+              <div class="skills c-sharp">20%</div>
+            </div>
           </div>
         </div>
+
         <div class="tools fadeIn">
-          <h3 class="tonic sub-title">Softwares proficiency</h3>
-          <p>JetBrains</p>
-          <div class="container">
-            <div class="skills jetbrains">80%</div>
+          <h3 class="tonic sub-title">{{ content.about.tools.softwares.title }}</h3>
+          <div class="skill-container">
+            <p class="skill-name">JetBrains</p>
+            <div class="container">
+              <div class="skills jetbrains">80%</div>
+            </div>
           </div>
-
-          <p>Visual Studio</p>
-          <div class="container">
-            <div class="skills vsc">70%</div>
+          <div class="skill-container">
+            <p class="skill-name">Visual Studio</p>
+            <div class="container">
+              <div class="skills vsc">70%</div>
+            </div>
           </div>
-
-          <p>Wordpress</p>
-          <div class="container">
-            <div class="skills wordpress">65%</div>
+          <div class="skill-container">
+            <p class="skill-name">Wordpress</p>
+            <div class="container">
+              <div class="skills wordpress">65%</div>
+            </div>
           </div>
-
-          <p>Adobe Suite</p>
-          <div class="container">
-            <div class="skills adobe">75%</div>
+          <div class="skill-container">
+            <p class="skill-name">Adobe Suite</p>
+            <div class="container">
+              <div class="skills adobe">75%</div>
+            </div>
           </div>
-
-          <p>Microsoft Office Suite</p>
-          <div class="container">
-            <div class="skills office">95%</div>
+          <div class="skill-container">
+            <p class="skill-name">Microsoft Office Suite</p>
+            <div class="container">
+              <div class="skills office">95%</div>
+            </div>
           </div>
-
-          <p>Google Suite</p>
-          <div class="container">
-            <div class="skills google">95%</div>
+          <div class="skill-container">
+            <p class="skill-name">Google Suite</p>
+            <div class="container">
+              <div class="skills google">95%</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div id="contact">
-      <h2 class="tonic title fadeIn">Want to get in touch?</h2>
+      <h2 class="tonic title fadeIn">{{ content.about.contact.title }}</h2>
       <div class="fadeIn">
         <div class="social"><a href="https://www.linkedin.com/in/charles-m-9014a4151/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></div>
         <div class="social"><a href="mailto:charlesmangin.98@gmail.com" target="_blank"><i class="fas fa-at"></i>Gmail</a></div>
@@ -186,7 +195,7 @@
 
     <div id="more"><p>(More projects and updates coming very soon!)</p></div>
 
-    <div id="footer">© 2022 Copyright: charlesmangin.fr</div>
+    <div id="footer">© {{ year.getYear() + 1900 }} Copyright: charlesmangin.fr</div>
 
   </div>
 </template>
@@ -200,7 +209,8 @@ export default {
   data() {
     return {
       content: {},
-      active: false
+      active: false,
+      year: 0
     }
   },
 
@@ -213,8 +223,9 @@ export default {
           console.log(error);
         });
 
-
     window.addEventListener('scroll', this.scrollPercentage);
+
+    this.year = new Date();
   },
 
   destroyed () {
