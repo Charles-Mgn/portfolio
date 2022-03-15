@@ -1,0 +1,173 @@
+{
+  "work": {
+    "devTitle": "Dev projects",
+    "devProjects": [
+      {
+        "id": "0",
+        "title": "Architech",
+        "desc": "Discover an unknown artist of great talent: Jean-Pierre Ugarte.",
+        "tech": "HTML, CSS, Vue.js",
+        "time": "18 hours",
+        "team": "solo project",
+        "date": "2022",
+        "img": "img/architech.png",
+        "link": "https://architech.charlesmangin.fr"
+      },
+      {
+        "id": "1",
+        "title": "\"Maison des étudiants de Montbéliard\"",
+        "desc": "Website for the main student-led association of Montbéliard.",
+        "tech": "HTML, CSS, Vue.js, Wordpress",
+        "time": "60 hours",
+        "team": "group project",
+        "date": "2021",
+        "img": "img/memo.png",
+        "link": "https://projetmemo.nikolag25.fr"
+      },
+      {
+        "id": "2",
+        "title": "AI, a not so bright futur?",
+        "desc": "AI is all around us, yet few people are aware of its presence...",
+        "tech": "HTML, CSS, JS",
+        "time": "40 hours",
+        "team": "solo project",
+        "date": "2020",
+        "img": "img/ai-ansbf.jpeg",
+        "link": "https://projets1.charlesmangin.fr"
+      },
+      {
+        "id": "3",
+        "title": "AlterinGames",
+        "desc": "Rediscover your favorite boardgames with brand new rules.",
+        "tech": "HTML, CSS, JS, PHP",
+        "time": "60 hours",
+        "team": "group project",
+        "date": "2021",
+        "img": "img/alteringames.png",
+        "link": "https://alteringames.charlesmangin.fr"
+      },
+      {
+        "id": "4",
+        "title": "Mountain Climbers",
+        "desc": "A small responsive landing page made with Wordpress.",
+        "tech": "Wordpress, CSS",
+        "time": "14 hours",
+        "team": "solo project",
+        "date": "2021",
+        "img": "img/mountain-climbers.png",
+        "link": "https://s3-wp.charlesmangin.fr"
+      }
+    ],
+    "designTitle": "Design projects",
+    "designProjects": [
+      {
+        "id": "0",
+        "title": "CSS Landscapes",
+        "desc": "Showcasing the main landmarks of Belfort.",
+        "tech": "Adobe Illustrator, CSS keyframes",
+        "time": "14 hours",
+        "team": "solo project",
+        "date": "2021",
+        "img": "img/landscape.png",
+        "link": "https://youtu.be/VNLcxtOo9d4"
+      },
+      {
+        "id": "1",
+        "title": "BUG DAYS",
+        "desc": "Creating the logo for a fictive e-sport event.",
+        "tech": "Adobe Illustrator, AfterEffects",
+        "time": "10 hours",
+        "team": "solo project",
+        "date": "2021",
+        "img": "img/bug-days.png",
+        "link": "https://youtu.be/R5D16f5Xb9A"
+      },
+      {
+        "id": "2",
+        "title": "Monogramme",
+        "desc": "Creating an animation for your initials.",
+        "tech": "Adobe Illustrator, CSS keyframes",
+        "time": "3 hours",
+        "team": "solo project",
+        "date": "2020",
+        "img": "img/monogramme.png",
+        "link": "https://youtu.be/iBnIJ5YoUYE"
+      },
+      {
+        "id": "3",
+        "title": "L'ouverture des données",
+        "desc": "While being given unrelated pieces of footage, let's create the best thing we can.",
+        "tech": "Figma",
+        "time": "6 hours",
+        "team": "solo project",
+        "date": "2020",
+        "img": "img/ouverture-donnees.png",
+        "link": "https://youtu.be/43Beshrpsw4"
+      }
+    ]
+  },
+  "about": {
+    "who": {
+      "title": "Who I am",
+      "txt1": "My name is Charles Mangin, I'm 23 years old and I am a multimedia student based in France.",
+      "txt2": "I always liked to create stuff, and now I do it as a job!"
+    },
+    "what": {
+      "title": "What I do",
+      "txt1": "I am fairly polyvalent. I have a degree in management, I studied law, and I will soon have a degree in multimedia.",
+      "txt2": "Here's what I know:",
+      "multimedia": {
+        "title": "Multimedia",
+        "list": {
+          "item1": "Development: How to create websites from A to Z, using multiple programming languages (see below).",
+          "item2": "Design: How to create visual identities (including, but not limited to: mock-ups, landing pages, logos, animations).",
+          "item3": "Audio-visual: How to film and edit videos.",
+          "item4": "Communication: How to communicate on the internet, while keeping in mind SEO challenges."
+        }
+      },
+      "managementLaw": {
+        "title": "Management and law",
+        "list": {
+          "item1": "Team management: How to organize and manage projects and teams.",
+          "item2": "Communication & marketing: Analysing markets, choosing the best strategies to adopt based on the needs of the client.",
+          "item3": "Accounting & finance: Analysing costs, knowing how to keep up with a budget.",
+          "item4": "Law: French business laws and administrative laws."
+        }
+      }
+    },
+    "tools": {
+      "title": "Tools I use",
+      "programming": {
+        "title": "Programming languages",
+        "list": {
+          "item1": "HTML",
+          "item2": "CSS",
+          "item3": "JS (w/ Vue.js)",
+          "item4": "SQL",
+          "item5": "C#",
+          "item6": "PHP"
+        }
+      },
+      "softwares": {
+        "title": "Softwares",
+        "list": {
+          "item1": "JetBrains",
+          "item2": "Visual Studio",
+          "item3": "Wordpress",
+          "item4": "Adobe Suite",
+          "item5": "Microsoft Office Suite",
+          "item6": "Google Suite"
+        }
+      }
+    },
+    "contact": {
+      "title": "Want to get in touch?",
+      "list": {
+        "linkedin": "https://www.linkedin.com/in/charles-m-9014a4151/",
+        "gmail": "mailto:charlesmangin.98@gmail.com",
+        "github": "https://github.com/Ezellix",
+        "instagram": "https://www.instagram.com/charles_0229/"
+      }
+    }
+  }
+}
