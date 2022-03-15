@@ -3,7 +3,7 @@
 
     <div id="head">
       <nav class="slideV">
-        <div class="home"><a href="">Home</a></div>
+        <div class="home active"><a href="#">Home</a></div>
         <div class="work"><a href="#work">My work</a></div>
         <div class="about"><a href="#about">About</a></div>
         <div class="contact"><a href="#contact">Contact</a></div>
@@ -231,12 +231,12 @@ export default {
           document.querySelector('.about').classList.remove("active");
           document.querySelector('.work').classList.remove("active");
           document.querySelector('.home').classList.remove("active");
-        } else if (scroll > 60 && scroll <= 95) {
+        } else if (scroll > 51 && scroll <= 95) {
           document.querySelector('.about').classList.add("active");
           document.querySelector('.contact').classList.remove("active");
           document.querySelector('.work').classList.remove("active");
           document.querySelector('.home').classList.remove("active");
-        } else if (scroll > 30 && scroll <= 60) {
+        } else if (scroll > 14 && scroll <= 51) {
           document.querySelector('.work').classList.add("active");
           document.querySelector('.about').classList.remove("active");
           document.querySelector('.contact').classList.remove("active");
@@ -292,10 +292,6 @@ export default {
            document.querySelector('.contact').classList.remove("active");
          }
        }
-    },
-
-    activeProject () {
-      this.active = !this.active
     }
   }
 }
